@@ -3,3 +3,7 @@ GET http://localhost:9900/configtest/devel
 
 ###config-client
 GET http://localhost:8088/test
+
+###config-client actuator/refresh
+POST http://localhost:8088/actuator/refresh
+
